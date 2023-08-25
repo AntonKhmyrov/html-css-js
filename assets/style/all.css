@@ -1,0 +1,6 @@
+@import url(../style/mainStyle/reset.css);
+@import url(../style/mainStyle/global.css);
+
+@import url(./body/Header.css);
+@import url(./body/Main.css);
+@import url(./body/Footer.css);

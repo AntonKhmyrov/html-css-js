@@ -1,0 +1,142 @@
+.header {
+    background-color: #f4f4f4;
+    padding: 40px 0;
+}
+
+.header__inner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header__log {
+    width: 100%;
+}
+
+.header__logo-link {
+    font-weight: 700;
+    font-size: 46px;
+    line-height: 1.5;
+}
+
+.header__cities {
+    display: flex;
+    flex-direction: column;
+    font-size: 18px;
+}
+
+.header__cities-title {
+    font-size: 20px;
+    padding-left: 10px;
+}
+
+.header__cities-select {
+    padding: 10px;
+    cursor: pointer;
+}
+
+.header__cities-option {
+    font-size: 18px;
+}
+
+.header__navigation {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+
+.header__navigation-box {
+    display: flex;
+    flex-direction: column;
+    padding: 0 10px;
+}
+
+.header__nav {
+    margin-bottom: 10px;
+}
+
+.header__nav-list {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.header__nav-item {
+    font-size: 18px;
+    line-height: 1.5;
+    padding: 5px;
+}
+
+.header__nav-link {
+    text-decoration: none;
+    transition: color ease-in-out 0.15s;
+}
+
+.header__nav-link:hover {
+    color: #ffac5f;
+}
+
+.header__search {
+    width: 100%;
+}
+
+.header__search-form {
+    display: flex;
+    border: 1px solid black;
+    border-radius: 4px;
+    padding: 5px 10px;
+}
+
+.header__search-input {
+    font-size: 20px;
+    width: 100%;
+    padding-right: 10px;
+}
+
+.header__search-input:focus {
+    color: green;
+}
+
+.header__search-button {
+    padding: 2px;
+}
+
+.header__search-button span {
+    font-size: 30px;
+    transition: color ease-in-out 0.15s;
+}
+
+.header__search-button span:hover {
+    color: green;
+}
+
+.header__contacts {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.header__contacts-list {
+    display: flex;
+    gap: 30px;
+}
+
+.header__contacts-sublist {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.header__contacts-item {
+    font-size: 18px;
+}
+
+.header__contacts-link {
+    text-decoration: none;
+    transition: color ease-in-out 0.15s;
+}
+
+.header__contacts-link:hover {
+    text-decoration: none;
+    color: #ffac5f;
+}
