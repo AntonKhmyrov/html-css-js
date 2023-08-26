@@ -7,6 +7,16 @@
       rel="stylesheet"
       href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@40,300,0,0"
     />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"
+    />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css"
+    />
     <title>Document</title>
     <link rel="stylesheet" href="./assets/style/all.css" />
   </head>
@@ -398,15 +408,285 @@
                 </div>
               </div>
               <section class="main__slider">
-                <div>main slider</div>
-                <div>
-                  <h2>Хіт продажів</h2>
-                  <div>slider2</div>
-                </div>
-                <div>Акції</div>
-                <div>
-                  <h2>Усі бренди</h2>
-                  <div>slider3</div>
+                <div class="main__slider-block">
+                  <div class="main__slider-first">
+                    <div
+                      class="slider__first-item"
+                      style="
+                        background: url(./assets/images/main/imgSliders/mainSlider/oneSlide.jpg);
+                        padding: 170px 240px;
+                        background-repeat: no-repeat;
+                        background-position: center;
+                        background-size: contain;
+                      "
+                    ></div>
+                    <div
+                      class="slider__first-item"
+                      style="
+                        background: url(./assets/images/main/imgSliders/mainSlider/twoSlide.webp);
+                        padding: 170px 240px;
+                        background-repeat: no-repeat;
+                        background-position: center;
+                        background-size: contain;
+                      "
+                    ></div>
+                    <div
+                      class="slider__first-item"
+                      style="
+                        background: url(./assets/images/main/imgSliders/mainSlider/threeSlide.jpg);
+                        padding: 170px 240px;
+                        background-repeat: no-repeat;
+                        background-position: center;
+                        background-size: contain;
+                      "
+                    ></div>
+                  </div>
+                  <div class="main__slider-two">
+                    <div class="main__slider-two-header">
+                      <h2 class="main__slider-two-title">Хіти продажу</h2>
+                      <div class="slider-control">
+                        <button class="slider-prev">
+                          <span class="material-symbols-outlined">
+                            arrow_back_ios
+                          </span>
+                        </button>
+                        <button class="slider-next">
+                          <span class="material-symbols-outlined">
+                            arrow_forward_ios
+                          </span>
+                        </button>
+                      </div>
+                    </div>
+                    <div class="main__slider-two-body">
+                      <div class="slider__two-item">
+                        <div
+                          style="
+                            background: url(./assets/images/main/imgSliders/towSlider/1.jpeg);
+                            padding: 140px 140px;
+                            background-repeat: no-repeat;
+                            background-position: center;
+                            background-size: contain;
+                          "
+                        ></div>
+                        <div>
+                          <h3 class="slider__two-title">
+                            Цемент ПЦ-400 Кривой Рог-Завод (25 кг)
+                          </h3>
+                          <ul class="slider__price-list">
+                            <li class="slider__price-item">
+                              <span class="one-item">132.50 грн.</span>
+                            </li>
+                            <li class="slider__price-item">
+                              Опт.<span class="opt-item">129.50 грн.</span>
+                            </li>
+                          </ul>
+                          <button class="slider__two-button">Купити</button>
+                        </div>
+                      </div>
+                      <div class="slider__two-item">
+                        <div
+                          style="
+                            background: url(./assets/images/main/imgSliders/towSlider/2.jpeg);
+                            padding: 140px 140px;
+                            background-repeat: no-repeat;
+                            background-position: center;
+                            background-size: contain;
+                          "
+                        ></div>
+                        <div>
+                          <h3 class="slider__two-title">
+                            Гипсокартон KNAUF стеновой 2500х1200х12,5 мм (3
+                            м.кв.) стена
+                          </h3>
+                          <ul class="slider__price-list">
+                            <li class="slider__price-item">
+                              <span class="one-item">359.40 грн.</span>
+                            </li>
+                            <li class="slider__price-item">
+                              Опт.<span class="opt-item">355.40 грн.</span>
+                            </li>
+                          </ul>
+                          <button class="slider__two-button">Купити</button>
+                        </div>
+                      </div>
+                      <div class="slider__two-item">
+                        <div
+                          style="
+                            background: url(./assets/images/main/imgSliders/towSlider/3.jpeg);
+                            padding: 140px 140px;
+                            background-repeat: no-repeat;
+                            background-position: center;
+                            background-size: contain;
+                          "
+                        ></div>
+                        <div>
+                          <h3 class="slider__two-title">
+                            Гипсокартон KNAUF влагостойкий стеновой
+                            2500х1200х12,5 мм (3 м.кв.)
+                          </h3>
+                          <ul class="slider__price-list">
+                            <li class="slider__price-item">
+                              <span class="one-item">427.20 грн.</span>
+                            </li>
+                            <li class="slider__price-item">
+                              Опт.<span class="opt-item">423.20 грн.</span>
+                            </li>
+                          </ul>
+                          <button class="slider__two-button">Купити</button>
+                        </div>
+                      </div>
+                      <div class="slider__two-item">
+                        <div
+                          style="
+                            background: url(./assets/images/main/imgSliders/towSlider/4.jpeg);
+                            padding: 140px 140px;
+                            background-repeat: no-repeat;
+                            background-position: center;
+                            background-size: contain;
+                          "
+                        ></div>
+                        <div>
+                          <h3 class="slider__two-title">
+                            Песок Днепр (43-45 кг)
+                          </h3>
+                          <ul class="slider__price-list">
+                            <li class="slider__price-item">
+                              <span class="one-item">27.90 грн.</span>
+                            </li>
+                            <li class="slider__price-item">
+                              Опт.<span class="opt-item">27.50 грн.</span>
+                            </li>
+                          </ul>
+                          <button class="slider__two-button">Купити</button>
+                        </div>
+                      </div>
+                      <div class="slider__two-item">
+                        <div
+                          style="
+                            background: url(./assets/images/main/imgSliders/towSlider/5.jpeg);
+                            padding: 140px 140px;
+                            background-repeat: no-repeat;
+                            background-position: center;
+                            background-size: contain;
+                          "
+                        ></div>
+                        <div>
+                          <h3 class="slider__two-title">
+                            Шпаклевка финиш КНАУФ НР гипсовая (25кг)
+                          </h3>
+                          <ul class="slider__price-list">
+                            <li class="slider__price-item">
+                              <span class="one-item">321.90 грн.</span>
+                            </li>
+                            <li class="slider__price-item">
+                              Опт.<span class="opt-item">318.60 грн.</span>
+                            </li>
+                          </ul>
+                          <button class="slider__two-button">Купити</button>
+                        </div>
+                      </div>
+                      <div class="slider__two-item">
+                        <div
+                          style="
+                            background: url(./assets/images/main/imgSliders/towSlider/6.jpeg);
+                            padding: 140px 140px;
+                            background-repeat: no-repeat;
+                            background-position: center;
+                            background-size: contain;
+                          "
+                        ></div>
+                        <div>
+                          <h3 class="slider__two-title">
+                            Цемент ПЦ-500 Д10 Ивано-Франковск (25кг) мал.
+                          </h3>
+                          <ul class="slider__price-list">
+                            <li class="slider__price-item">
+                              <span class="one-item">142.90 грн.</span>
+                            </li>
+                            <li class="slider__price-item">
+                              Опт.<span class="opt-item">141.90 грн.</span>
+                            </li>
+                          </ul>
+                          <button class="slider__two-button">Купити</button>
+                        </div>
+                      </div>
+                      <div class="slider__two-item">
+                        <div
+                          style="
+                            background: url(./assets/images/main/imgSliders/towSlider/7.jpeg);
+                            padding: 140px 140px;
+                            background-repeat: no-repeat;
+                            background-position: center;
+                            background-size: contain;
+                          "
+                        ></div>
+                        <div>
+                          <h3 class="slider__two-title">
+                            Шпаклевка AYGIPS IZO старт (25 кг)
+                          </h3>
+                          <ul class="slider__price-list">
+                            <li class="slider__price-item">
+                              <span class="one-item">217.30 грн.</span>
+                            </li>
+                            <li class="slider__price-item">
+                              Опт.<span class="opt-item">210.60 грн.</span>
+                            </li>
+                          </ul>
+                          <button class="slider__two-button">Купити</button>
+                        </div>
+                      </div>
+                      <div class="slider__two-item">
+                        <div
+                          style="
+                            background: url(./assets/images/main/imgSliders/towSlider/8.jpeg);
+                            padding: 140px 140px;
+                            background-repeat: no-repeat;
+                            background-position: center;
+                            background-size: contain;
+                          "
+                        ></div>
+                        <div>
+                          <h3 class="slider__two-title">
+                            Грунтовка Knauf Тифенгрунд (10кг)
+                          </h3>
+                          <ul class="slider__price-list">
+                            <li class="slider__price-item">
+                              <span class="one-item">309.90 грн.</span>
+                            </li>
+                            <li class="slider__price-item">
+                              Опт.<span class="opt-item">302.90 грн.</span>
+                            </li>
+                          </ul>
+                          <button class="slider__two-button">Купити</button>
+                        </div>
+                      </div>
+                      <div class="slider__two-item">
+                        <div
+                          style="
+                            background: url(./assets/images/main/imgSliders/towSlider/9.jpeg);
+                            padding: 140px 140px;
+                            background-repeat: no-repeat;
+                            background-position: center;
+                            background-size: contain;
+                          "
+                        ></div>
+                        <div>
+                          <h3 class="slider__two-title">
+                            Клей для стеклохолста стандарт Бостик (70) 15л
+                          </h3>
+                          <ul class="slider__price-list">
+                            <li class="slider__price-item">
+                              <span class="one-item">1,050.40 грн.</span>
+                            </li>
+                            <li class="slider__price-item">
+                              Опт.<span class="opt-item">1,018.90 грн.</span>
+                            </li>
+                          </ul>
+                          <button class="slider__two-button">Купити</button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
                 </div>
               </section>
             </div>
@@ -760,5 +1040,12 @@
         </div>
       </footer>
     </div>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script
+      type="text/javascript"
+      src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"
+    ></script>
+    <script src="./assets/js/main.js"></script>
   </body>
 </html>
